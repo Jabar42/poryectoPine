@@ -6,9 +6,16 @@
         <title>New page</title>         
         <script src="https://cdn.tailwindcss.com/"></script>         
     </head>     
-    <body class="grid grid-cols-3 grid-rows-3"> 
-        <div class="border-2 border-green-700 border-solid col-end-3 col-start-2 row-end-3 row-start-2">
-            <img src="https://pinegrow.com/placeholders/img13.jpg">
+    <body class="grid grid-cols-3 grid-rows-3 h-screen w-dvw"> 
+        <div class="bg-amber-500 col-end-3 col-start-2 grid grid-cols-3 grid-rows-[100px_100px] row-end-3 row-start-2">
+            <div data-empty-placeholder class="bg-white col-end-3 col-start-2 row-end-3 row-start-1"></div>
         </div>
+        <div data-empty-placeholder class="bg-black"></div>
+        <div data-empty-placeholder class="bg-slate-100 bg-slate-900 col-end-4 col-start-3 row-end-2 row-start-1"></div>
+        <div data-empty-placeholder class="bg-red-500 col-end-4 col-start-3 row-end-4 row-start-3"></div>
+        <div class="bg-amber-500 border-0 grid grid-cols-3 grid-rows-[100px_100px_100px] m-0 p-0 rounded-none">
+            <div data-empty-placeholder class="bg-white col-end-3 col-start-2 row-end-4 row-start-3"></div>
+        </div>
+        <div data-empty-placeholder class="bg-zinc-800 col-end-2 col-start-1 row-end-4 row-start-3"></div>
     </body>     
 </html>
